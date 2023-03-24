@@ -51,56 +51,56 @@ const Home = () => {
           <h1>Brands</h1>
 
           <article>
-            <div
-              style={{
-                animationDelay: "0.3s",
-              }}
-            >
-              <NavLink to="https://www.google.com/" target="_blank">
+            <NavLink to="https://www.google.com/" target="_blank">
+              <div
+                style={{
+                  animationDelay: "0.3s",
+                }}
+              >
                 <AiFillGoogleCircle />
                 <p>Google</p>
-              </NavLink>
-            </div>
-            <div
-              style={{
-                animationDelay: "0.5s",
-              }}
-            >
-              <NavLink to="https://www.amazon.in/" target="_blank">
+              </div>
+            </NavLink>
+            <NavLink to="https://www.amazon.in/" target="_blank">
+              <div
+                style={{
+                  animationDelay: "0.5s",
+                }}
+              >
                 <AiFillAmazonCircle />
                 <p>Amazon</p>
-              </NavLink>
-            </div>
-            <div
-              style={{
-                animationDelay: "0.7s",
-              }}
-            >
-              <NavLink to="https://www.youtube.com/" target="_blank">
+              </div>
+            </NavLink>
+            <NavLink to="https://www.youtube.com/" target="_blank">
+              <div
+                style={{
+                  animationDelay: "0.7s",
+                }}
+              >
                 <AiFillYoutube />
                 <p>Youtube</p>
-              </NavLink>
-            </div>
-            <div
-              style={{
-                animationDelay: "0.9s",
-              }}
-            >
-              <NavLink to="https://www.linkedin.com/" target="_blank">
+              </div>
+            </NavLink>
+            <NavLink to="https://www.linkedin.com/" target="_blank">
+              <div
+                style={{
+                  animationDelay: "0.9s",
+                }}
+              >
                 <AiFillLinkedin />
                 <p>LinkedIn</p>
-              </NavLink>
-            </div>
-            <div
-              style={{
-                animationDelay: "0.11s",
-              }}
-            >
-              <NavLink to="https://www.instagram.com/" target="_blank">
+              </div>
+            </NavLink>
+            <NavLink to="https://www.instagram.com/" target="_blank">
+              <div
+                style={{
+                  animationDelay: "0.11s",
+                }}
+              >
                 <AiFillInstagram />
                 <p>Instagram</p>
-              </NavLink>
-            </div>
+              </div>
+            </NavLink>
           </article>
         </div>
       </div>
